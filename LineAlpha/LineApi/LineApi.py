@@ -23,8 +23,8 @@ class LineApi(object):
     _thriftProtocol = None
     isLogin = False
     revision = None
-    authToken = ""
-    certificate = ""
+    authToken = "5aR3eSINOeRl4jblsL6ZGaAqvT08/Lw+hxo+FmMJW3/JnHntUx0MAngWlo4JfcDPDNpjPBwxlDQbIQtk8baF3li8Ab1hBwukUlDctPnynWWZaMuU8rIMIEJzyfkKPkoomYFxJCRDQstvAB9+H2V3lwdB04t89/1O/w1cDnyilFU="
+    certificate = "1580630018"
 
     def __init__(self):
         self._transportOpen(url.LINE_HOST_DOMAIN)
